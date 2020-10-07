@@ -1,5 +1,32 @@
 /* Write your CSS here. */
+body{
+  font-family:'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  margin: 0px
+}
 
+.header-nav__container{
+  display:flex;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
+  align-self: flex-start;
+  background-color: RGB(28, 115, 194);
+  justify-content: space-between;
+}
+
+
+#alerts{
+  background-color:#CF513D ;
+}
+
+@media screen and (max-width: 730px){
+
+  #boards, #search{
+    display: none;
+  }
+}
 
 
 
